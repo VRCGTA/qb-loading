@@ -6,13 +6,17 @@ const load = Vue.createApp({
   setup () {
     return {
       CarouselText1: 'You can add/remove items, vehicles, jobs & gangs through the shared folder.',
-      CarouselSubText1: 'Photo captured by: Markyoo#8068',
+      CarouselSubText1: '犬飼 まつ - LSカスタム前ニトロ大爆発',
       CarouselText2: 'Adding additional player data can be achieved by modifying the qb-core player.lua file.',
-      CarouselSubText2: 'Photo captured by: ihyajb#9723',
+      CarouselSubText2: 'ハチ ナツ - カンジョレース',
       CarouselText3: 'All server-specific adjustments can be made in the config.lua files throughout the build.',
-      CarouselSubText3: 'Photo captured by: FLAPZ[INACTIV]#9925',
+      CarouselSubText3: 'tatsu - 原チャリ登山',
       CarouselText4: 'For additional support please join our community at discord.gg/qbcore',
-      CarouselSubText4: 'Photo captured by: Robinerino#1312',
+      CarouselSubText4: 'furu kappa - Cut In burger',
+      CarouselText5: 'For additional support please join our community at discord.gg/qbcore',
+      CarouselSubText5: 'S minato - 朝から警察署が意味不明',
+      CarouselText6: 'For additional support please join our community at discord.gg/qbcore',
+      CarouselSubText6: 'tn4kn - ハッチさんリサセンで寝落ち',
 
       DownloadTitle: 'Downloading QBCore Server',
       DownloadDesc: "Hold tight while we begin downloading all the resources/assets required to play on QBCore Server. \n\nAfter download has been finished successfully, you'll be placed into the server and this screen will disappear. Please don't leave or turn off your PC. ",

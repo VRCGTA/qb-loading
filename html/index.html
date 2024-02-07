@@ -22,9 +22,11 @@
 
             <q-carousel animated v-model="firstslide" :autoplay="secondap" ref="carousel" infinite>
                 <q-carousel-slide :name="1" img-src="/assets/images/1.png"></q-carousel-slide>
-                <q-carousel-slide :name="2" img-src="/assets/images/2.png"></q-carousel-slide>
-                <q-carousel-slide :name="3" img-src="/assets/images/3.png"></q-carousel-slide>
-                <q-carousel-slide :name="4" img-src="/assets/images/4.png"></q-carousel-slide>
+                <q-carousel-slide :name="2" img-src="/assets/images/2.jpg"></q-carousel-slide>
+                <q-carousel-slide :name="3" img-src="/assets/images/3.jpg"></q-carousel-slide>
+                <q-carousel-slide :name="4" img-src="/assets/images/4.jpg"></q-carousel-slide>
+                <q-carousel-slide :name="5" img-src="/assets/images/5.jpg"></q-carousel-slide>
+                <q-carousel-slide :name="6" img-src="/assets/images/6.jpg"></q-carousel-slide>
             </q-carousel>
 
             <!-- This is where you want to replace with your video -->
@@ -72,6 +74,22 @@
                                 </div>
                                 <div style="opacity: 0.9; width: 30vw; white-space: pre-wrap;" class="text-left text-body1">
                                     {{ CarouselSubText4 }}
+                                </div>
+                            </q-carousel-slide>
+                            <q-carousel-slide name="5" class="column no-wrap flex-center">
+                                <div style="width: 30vw; white-space: pre-wrap;" class="text-left text-h6">
+                                    {{ CarouselText5 }}
+                                </div>
+                                <div style="opacity: 0.9; width: 30vw; white-space: pre-wrap;" class="text-left text-body1">
+                                    {{ CarouselSubText5 }}
+                                </div>
+                            </q-carousel-slide>
+                            <q-carousel-slide name="6" class="column no-wrap flex-center">
+                                <div style="width: 30vw; white-space: pre-wrap;" class="text-left text-h6">
+                                    {{ CarouselText6 }}
+                                </div>
+                                <div style="opacity: 0.9; width: 30vw; white-space: pre-wrap;" class="text-left text-body1">
+                                    {{ CarouselSubText6 }}
                                 </div>
                             </q-carousel-slide>
                         </q-carousel>
